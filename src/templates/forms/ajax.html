@@ -2,10 +2,12 @@
 
 
 {% block content %}
-
-<form>
-{{ form.as_p }}
-<input class='btn btn-default' type='submit' value='Submit' />
-</form>
+<div class='col-6 offset-md-3'>
+    <h1>Your Form</h1>
+    <form>
+    {{ form.as_p }}
+    <input class='btn btn-default' type='submit' value='Submit' />
+    </form>
+</div>
 
 {% endblock %}
